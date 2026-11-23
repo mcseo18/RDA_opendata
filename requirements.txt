@@ -1,0 +1,14 @@
+# 설치 방법:  pip install -r requirements.txt
+requests>=2.31        # 인터넷으로 API 호출, 파일 다운로드
+pandas>=2.0           # 표(목록) 다루기, CSV/Excel 저장
+openpyxl>=3.1         # Excel(.xlsx) 파일 쓰기
+python-dotenv>=1.0    # .env 파일에서 인증키 읽기
+PyMuPDF>=1.24         # PDF 텍스트 추출 (import 이름은 fitz 또는 pymupdf)
+pdfplumber>=0.11      # PDF 텍스트 추출 (PyMuPDF가 실패할 때 대체용)
+tqdm>=4.66            # 진행률 막대 표시
+olefile>=0.47         # 예전 한글(.hwp) 파일 텍스트 추출
+truststore>=0.9       # data.go.kr 보안인증서(SSL) 오류 방지 (윈도우 인증서 사용)
+
+# ── 아래는 스캔본 PDF OCR을 쓸 때만 필요합니다 (선택) ──
+# pytesseract>=0.3.10   # Tesseract OCR 연결 (Tesseract 프로그램 별도 설치 필요)
+# Pillow>=10.0          # 이미지 처리
